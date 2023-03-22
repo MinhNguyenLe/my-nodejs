@@ -1,0 +1,28 @@
+{
+  "name": "my-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "node-start": "node docs/guide/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node-debugger": "node docs/guide/index.js --inspect",
+    "express": "NODE_ENV=production node --prof docs/demo/express/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinhNguyenLe/my-nodejs.git"
+  },
+  "author": "minhlee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MinhNguyenLe/my-nodejs/issues"
+  },
+  "homepage": "https://github.com/MinhNguyenLe/my-nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
